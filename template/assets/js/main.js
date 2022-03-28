@@ -87,7 +87,7 @@ function getMessage(name, img, side, text) {
             <div class="msg-bubble">
                 <div class="msg-info">
                     <div class="msg-info-name">${name}</div>
-                    <div class="msg-info-time">${d.getFullYear()}/${d.getMonth()}/${d.getDay()} ${d.getHours()}:${d.getMinutes()}</div>
+                    <div class="msg-info-time">${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()} ${d.getHours()}:${d.getMinutes()}</div>
                 </div>
                 <div class="msg-text">${text}</div>
             </div>
